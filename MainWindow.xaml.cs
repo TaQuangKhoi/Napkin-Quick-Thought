@@ -20,9 +20,24 @@ namespace Napkin_Quick_Thought
     /// </summary>
     public partial class MainWindow : Window
     {
+        bool Checked = false;
         public MainWindow()
         {
             InitializeComponent();
+        }
+        
+        void ClearText()
+        {
+            pgThought.Inlines.Clear();
+        }
+
+        private void rtbThought_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (!Checked)
+            {
+                ClearText();
+                rtbThought.FontStyle = FontStyles.Normal;
+            }
         }
     }
 }
