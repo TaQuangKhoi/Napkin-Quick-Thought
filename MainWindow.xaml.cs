@@ -39,5 +39,10 @@ namespace Napkin_Quick_Thought
                 rtbThought.FontStyle = FontStyles.Normal;
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

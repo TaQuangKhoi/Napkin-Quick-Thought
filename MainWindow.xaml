@@ -14,5 +14,6 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
+        <Button Content="Gửi" HorizontalAlignment="Left" Margin="350,373,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="Button_Click"/>
     </Grid>
 </Window>
