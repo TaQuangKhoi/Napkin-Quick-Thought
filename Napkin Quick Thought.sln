@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Napkin Quick Thought", "Napkin Quick Thought.csproj", "{AADF6AC4-CEBF-4F1F-9AE6-4C10D89642C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AADF6AC4-CEBF-4F1F-9AE6-4C10D89642C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADF6AC4-CEBF-4F1F-9AE6-4C10D89642C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADF6AC4-CEBF-4F1F-9AE6-4C10D89642C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADF6AC4-CEBF-4F1F-9AE6-4C10D89642C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B30A3CA-F440-4E69-A33F-A7E66EA6B070}
+	EndGlobalSection
+EndGlobal
