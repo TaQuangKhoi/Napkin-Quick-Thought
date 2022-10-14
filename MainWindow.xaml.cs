@@ -40,9 +40,9 @@ namespace Napkin_Quick_Thought
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btnSend_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
     }
 }

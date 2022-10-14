@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Napkin_Quick_Thought"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="grMain">
         <RichTextBox x:Name="rtbThought" Margin="100,100,100,100" FontWeight="Light" FontStyle="Italic" GotFocus="rtbThought_GotFocus">
             <FlowDocument>
                 <Paragraph x:Name="pgThought">
@@ -14,6 +14,8 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Button Content="Gửi" HorizontalAlignment="Left" Margin="350,373,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="Button_Click"/>
+        <Grid x:Name="grButton">
+            <Button x:Name="btnSend" Content="Send" Click="btnSend_Click" Height="20" VerticalAlignment="Top" Width="40" Margin="0,334,0,0"/>
+        </Grid>
     </Grid>
 </Window>
